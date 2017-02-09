@@ -16,7 +16,14 @@
 		if($time >= "06:00" and $time < "12:00"){
 			$text = "Good morning!";
 			echo "<h1>$text</h1><p>The time is $time</p>";
+		} elseif ($time >= "12:00" and $time < "18:00") {
+			$text = "Good afternoon!";
+			echo "<h1>$text</h1><p>The time is $time</p>";
+		} elseif ($time >= "18:00" and $time < "24:00") {
+			$text = "Good evening!";
+			echo "<h1>$text</h1><p>The time is $time</p>";
 		}
+		
 
 	?>
 	</div>
