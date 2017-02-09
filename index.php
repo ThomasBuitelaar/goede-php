@@ -25,7 +25,7 @@
 			$text = "Good evening!";
 			echo "<h1>$text</h1><p>The time is $time</p>";echo "<style>#background{background-image url(backgrounds/evening.png); background-attachment: fixed; background-size: cover;}</style>";
 		} elseif ($time >= "00:00" and $time < "06:00") {
-			$text = "Good night!"
+			$text = "Good night!";
 			echo "<h1>$text</h1><p>The time is $time</p>";
 			echo "<style>#background{background-image url(backgrounds/night.png); background-attachment: fixed; background-size: cover;}</style>";
 		}
