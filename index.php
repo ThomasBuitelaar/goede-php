@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="style/stylesheet.css">
 <title></title>
 </head>
-<body id =  "background">
+<body id = "background">
 <script type="text/javascript" src="javaScript.js">
 
 		</script>
@@ -29,7 +29,6 @@
 			echo "<h1>$text</h1><p>The time is $time</p>";
 			echo "<style>#background{background-image url(backgrounds/night.png); background-attachment: fixed; background-size: cover;}</style>";
 		}
-		
 
 	?>
 	</div>
