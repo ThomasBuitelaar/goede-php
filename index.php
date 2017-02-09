@@ -2,7 +2,8 @@
 <html>
 <head>
 <link rel="stylesheet" href="style/stylesheet.css">
-<title></title>
+<link rel="icon" href="img/sun.png" type="image/png" size="16x16">
+<title>How are you doing?</title>
 </head>
 <body id = "background">
 <script type="text/javascript" src="javaScript.js">
