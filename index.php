@@ -3,13 +3,19 @@
 <head>
 <link rel="stylesheet" href="style/stylesheet.css">
 <link rel="icon" href="img/sun.png" type="image/png" size="16x16">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <title>How are you doing?</title>
 </head>
 <body id = "background">
-<script type="text/javascript" src="javaScript.js">
-
+<script type="text/javascript">
+var timeout = setTimeout(reload, 1000);
+	function reload(){
+		$("#reload").load('index.php #reload', function(){
+			timeout = setTimeout(reload, 1000);
+		});
+	}
 		</script>
-<div id=reload>
+<div id="reload">
 	<?php 
 		date_default_timezone_set('Europe/Amsterdam');
 		$time = date("H:i");
