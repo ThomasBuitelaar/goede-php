@@ -18,7 +18,7 @@ var timeout = setTimeout(reload, 1000);
 <div id="reload">
 	<?php 
 		date_default_timezone_set('Europe/Amsterdam');
-		$time = date("H:i");
+		$time = date("H:i:s");
 		$text = "";
 		if($time >= "06:00" and $time < "12:00"){
 			$text = "Good morning!";
